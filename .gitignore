@@ -1,0 +1,30 @@
+# Java build
+/target/
+*.class
+
+# Maven
+.log
+*.log
+.mvn/
+!**/src/main/**/.keep
+!**/src/test/**/.keep
+
+# Eclipse
+*.launch
+.settings/
+.project
+.classpath
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
